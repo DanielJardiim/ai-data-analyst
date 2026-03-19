@@ -1,0 +1,22 @@
+# Variáveis de ambiente — NUNCA sobe pro git
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual Python (se criar um dia fora do Docker)
+.venv/
+venv/
+
+# Dados do volume do PostgreSQL
+pg_data/
+
+# Configurações do VSCode (opcional — alguns preferem versionar)
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
